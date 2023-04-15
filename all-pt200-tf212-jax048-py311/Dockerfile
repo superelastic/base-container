@@ -45,6 +45,7 @@
 # nodejs                16.x latest      (apt)
 # default-jre           latest           (apt)
 # default-jdk           latest           (apt)
+# jupyterannotate       0.1.3            (pip)
 
 
 # ==================================================================
@@ -248,7 +249,8 @@
         wandb==0.13.4 \
         awscli==1.25.91 \
         jupyterlab-snippets==0.4.1 \
-        tornado==6.1
+        tornado==6.1 \
+		jupyterannotate==0.1.3
 # ==================================================================
 # Installing transformers & scikit image (fixed)
 # ------------------------------------------------------------------
